@@ -62,7 +62,7 @@ img {
 .photo-main {
   border-radius: 6px 6px 0 0;
   background-color: #9be010;
-  background: radial-gradient(#e5f89e, #96e001);
+  background: radial-gradient(#0000, #000000);
 
   .controls {
     display: flex;
@@ -211,21 +211,13 @@ footer {
     &:hover {
       color: $color-highlight;
     }
-  }
-}
-/* Estilos para telas menores que 600px de largura */
-@media only screen and (max-width: 600px) {
-  /* Exemplo de regra: tornar a largura do conteúdo 100% */
-  .conteudo {
-    width: 100%;
-  }
-}
+  @media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
 
-/* Estilos para telas maiores que 600px de largura */
-@media only screen and (min-width: 601px) {
-  /* Exemplo de regra: ajustar margens para centrar o conteúdo */
-  .conteudo {
-    margin: 0 auto;
-    max-width: 960px; /* exemplo de largura máxima */
-  }
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
 }
