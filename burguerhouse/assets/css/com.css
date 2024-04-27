@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-template-rows: 1fr;
   font-family: "Raleway", sans-serif;
-  background-color: #01e37f;
+  background-color: #000000;
 }
 
 h3 {
@@ -40,6 +40,7 @@ img {
   min-width: 600px;
   background-color: white;
   border-radius: 5px;
+  max-width: 960px; 
 }
 
 /* ----- Photo Section ----- */
